@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D651236B22C92B98005BB33E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651236A22C92B98005BB33E /* AppDelegate.swift */; };
+		D651236D22C92B98005BB33E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651236C22C92B98005BB33E /* SceneDelegate.swift */; };
+		D651236F22C92B98005BB33E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651236E22C92B98005BB33E /* ViewController.swift */; };
+		D651237222C92B98005BB33E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D651237022C92B98005BB33E /* Main.storyboard */; };
+		D651237422C92B9B005BB33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D651237322C92B9B005BB33E /* Assets.xcassets */; };
+		D651237722C92B9B005BB33E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D651237522C92B9B005BB33E /* LaunchScreen.storyboard */; };
+		D651238222C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651238122C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryTests.swift */; };
+		D651238D22C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651238C22C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D651237E22C92B9B005BB33E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D651235F22C92B98005BB33E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D651236622C92B98005BB33E;
+			remoteInfo = "You Belong With Me: An Extensions Love Story";
+		};
+		D651238922C92B9B005BB33E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D651235F22C92B98005BB33E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D651236622C92B98005BB33E;
+			remoteInfo = "You Belong With Me: An Extensions Love Story";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D651236722C92B98005BB33E /* You Belong With Me: An Extensions Love Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "You Belong With Me: An Extensions Love Story.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D651236A22C92B98005BB33E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D651236C22C92B98005BB33E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D651236E22C92B98005BB33E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D651237122C92B98005BB33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D651237322C92B9B005BB33E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D651237622C92B9B005BB33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D651237822C92B9B005BB33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D651237D22C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "You Belong With Me: An Extensions Love StoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D651238122C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = You_Belong_With_Me__An_Extensions_Love_StoryTests.swift; sourceTree = "<group>"; };
+		D651238322C92B9B005BB33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D651238822C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "You Belong With Me: An Extensions Love StoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D651238C22C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = You_Belong_With_Me__An_Extensions_Love_StoryUITests.swift; sourceTree = "<group>"; };
+		D651238E22C92B9B005BB33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D651236422C92B98005BB33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D651237A22C92B9B005BB33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D651238522C92B9B005BB33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D651235E22C92B98005BB33E = {
+			isa = PBXGroup;
+			children = (
+				D651236922C92B98005BB33E /* You Belong With Me: An Extensions Love Story */,
+				D651238022C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryTests */,
+				D651238B22C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryUITests */,
+				D651236822C92B98005BB33E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D651236822C92B98005BB33E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D651236722C92B98005BB33E /* You Belong With Me: An Extensions Love Story.app */,
+				D651237D22C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryTests.xctest */,
+				D651238822C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D651236922C92B98005BB33E /* You Belong With Me: An Extensions Love Story */ = {
+			isa = PBXGroup;
+			children = (
+				D651236A22C92B98005BB33E /* AppDelegate.swift */,
+				D651236C22C92B98005BB33E /* SceneDelegate.swift */,
+				D651236E22C92B98005BB33E /* ViewController.swift */,
+				D651237022C92B98005BB33E /* Main.storyboard */,
+				D651237322C92B9B005BB33E /* Assets.xcassets */,
+				D651237522C92B9B005BB33E /* LaunchScreen.storyboard */,
+				D651237822C92B9B005BB33E /* Info.plist */,
+			);
+			path = "You Belong With Me: An Extensions Love Story";
+			sourceTree = "<group>";
+		};
+		D651238022C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				D651238122C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryTests.swift */,
+				D651238322C92B9B005BB33E /* Info.plist */,
+			);
+			path = "You Belong With Me: An Extensions Love StoryTests";
+			sourceTree = "<group>";
+		};
+		D651238B22C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D651238C22C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryUITests.swift */,
+				D651238E22C92B9B005BB33E /* Info.plist */,
+			);
+			path = "You Belong With Me: An Extensions Love StoryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D651236622C92B98005BB33E /* You Belong With Me: An Extensions Love Story */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D651239122C92B9B005BB33E /* Build configuration list for PBXNativeTarget "You Belong With Me: An Extensions Love Story" */;
+			buildPhases = (
+				D651236322C92B98005BB33E /* Sources */,
+				D651236422C92B98005BB33E /* Frameworks */,
+				D651236522C92B98005BB33E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "You Belong With Me: An Extensions Love Story";
+			productName = "You Belong With Me: An Extensions Love Story";
+			productReference = D651236722C92B98005BB33E /* You Belong With Me: An Extensions Love Story.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D651237C22C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D651239422C92B9B005BB33E /* Build configuration list for PBXNativeTarget "You Belong With Me: An Extensions Love StoryTests" */;
+			buildPhases = (
+				D651237922C92B9B005BB33E /* Sources */,
+				D651237A22C92B9B005BB33E /* Frameworks */,
+				D651237B22C92B9B005BB33E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D651237F22C92B9B005BB33E /* PBXTargetDependency */,
+			);
+			name = "You Belong With Me: An Extensions Love StoryTests";
+			productName = "You Belong With Me: An Extensions Love StoryTests";
+			productReference = D651237D22C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D651238722C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D651239722C92B9B005BB33E /* Build configuration list for PBXNativeTarget "You Belong With Me: An Extensions Love StoryUITests" */;
+			buildPhases = (
+				D651238422C92B9B005BB33E /* Sources */,
+				D651238522C92B9B005BB33E /* Frameworks */,
+				D651238622C92B9B005BB33E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D651238A22C92B9B005BB33E /* PBXTargetDependency */,
+			);
+			name = "You Belong With Me: An Extensions Love StoryUITests";
+			productName = "You Belong With Me: An Extensions Love StoryUITests";
+			productReference = D651238822C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D651235F22C92B98005BB33E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Neem Serra";
+				TargetAttributes = {
+					D651236622C92B98005BB33E = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					D651237C22C92B9B005BB33E = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = D651236622C92B98005BB33E;
+					};
+					D651238722C92B9B005BB33E = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = D651236622C92B98005BB33E;
+					};
+				};
+			};
+			buildConfigurationList = D651236222C92B98005BB33E /* Build configuration list for PBXProject "You Belong With Me: An Extensions Love Story" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D651235E22C92B98005BB33E;
+			productRefGroup = D651236822C92B98005BB33E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D651236622C92B98005BB33E /* You Belong With Me: An Extensions Love Story */,
+				D651237C22C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryTests */,
+				D651238722C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D651236522C92B98005BB33E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D651237722C92B9B005BB33E /* LaunchScreen.storyboard in Resources */,
+				D651237422C92B9B005BB33E /* Assets.xcassets in Resources */,
+				D651237222C92B98005BB33E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D651237B22C92B9B005BB33E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D651238622C92B9B005BB33E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D651236322C92B98005BB33E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D651236F22C92B98005BB33E /* ViewController.swift in Sources */,
+				D651236B22C92B98005BB33E /* AppDelegate.swift in Sources */,
+				D651236D22C92B98005BB33E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D651237922C92B9B005BB33E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D651238222C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D651238422C92B9B005BB33E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D651238D22C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D651237F22C92B9B005BB33E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D651236622C92B98005BB33E /* You Belong With Me: An Extensions Love Story */;
+			targetProxy = D651237E22C92B9B005BB33E /* PBXContainerItemProxy */;
+		};
+		D651238A22C92B9B005BB33E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D651236622C92B98005BB33E /* You Belong With Me: An Extensions Love Story */;
+			targetProxy = D651238922C92B9B005BB33E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D651237022C92B98005BB33E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D651237122C92B98005BB33E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D651237522C92B9B005BB33E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D651237622C92B9B005BB33E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D651238F22C92B9B005BB33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D651239022C92B9B005BB33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D651239222C92B9B005BB33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "You Belong With Me: An Extensions Love Story/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neemserra.You-Belong-With-Me--An-Extensions-Love-Story";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D651239322C92B9B005BB33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "You Belong With Me: An Extensions Love Story/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neemserra.You-Belong-With-Me--An-Extensions-Love-Story";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D651239522C92B9B005BB33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "You Belong With Me: An Extensions Love StoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neemserra.You-Belong-With-Me--An-Extensions-Love-StoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/You Belong With Me: An Extensions Love Story.app/You Belong With Me: An Extensions Love Story";
+			};
+			name = Debug;
+		};
+		D651239622C92B9B005BB33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "You Belong With Me: An Extensions Love StoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neemserra.You-Belong-With-Me--An-Extensions-Love-StoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/You Belong With Me: An Extensions Love Story.app/You Belong With Me: An Extensions Love Story";
+			};
+			name = Release;
+		};
+		D651239822C92B9B005BB33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "You Belong With Me: An Extensions Love StoryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neemserra.You-Belong-With-Me--An-Extensions-Love-StoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "You Belong With Me: An Extensions Love Story";
+			};
+			name = Debug;
+		};
+		D651239922C92B9B005BB33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "You Belong With Me: An Extensions Love StoryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neemserra.You-Belong-With-Me--An-Extensions-Love-StoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "You Belong With Me: An Extensions Love Story";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D651236222C92B98005BB33E /* Build configuration list for PBXProject "You Belong With Me: An Extensions Love Story" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D651238F22C92B9B005BB33E /* Debug */,
+				D651239022C92B9B005BB33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D651239122C92B9B005BB33E /* Build configuration list for PBXNativeTarget "You Belong With Me: An Extensions Love Story" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D651239222C92B9B005BB33E /* Debug */,
+				D651239322C92B9B005BB33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D651239422C92B9B005BB33E /* Build configuration list for PBXNativeTarget "You Belong With Me: An Extensions Love StoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D651239522C92B9B005BB33E /* Debug */,
+				D651239622C92B9B005BB33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D651239722C92B9B005BB33E /* Build configuration list for PBXNativeTarget "You Belong With Me: An Extensions Love StoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D651239822C92B9B005BB33E /* Debug */,
+				D651239922C92B9B005BB33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D651235F22C92B98005BB33E /* Project object */;
+}
