@@ -1,0 +1,3 @@
+class HypotheticalSecondChild: Baby {
+
+}

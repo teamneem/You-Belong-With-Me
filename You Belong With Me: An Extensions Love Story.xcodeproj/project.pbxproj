@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D614698322E4F28E0068E264 /* OptionalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D614698222E4F28E0068E264 /* OptionalExtension.swift */; };
+		D614698522E532600068E264 /* Diaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D614698422E532600068E264 /* Diaper.swift */; };
+		D614698722E55EC50068E264 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D614698622E55EC50068E264 /* DoubleExtension.swift */; };
 		D651236B22C92B98005BB33E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651236A22C92B98005BB33E /* AppDelegate.swift */; };
 		D651236D22C92B98005BB33E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651236C22C92B98005BB33E /* SceneDelegate.swift */; };
 		D651236F22C92B98005BB33E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651236E22C92B98005BB33E /* ViewController.swift */; };
 		D651237222C92B98005BB33E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D651237022C92B98005BB33E /* Main.storyboard */; };
 		D651237422C92B9B005BB33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D651237322C92B9B005BB33E /* Assets.xcassets */; };
 		D651237722C92B9B005BB33E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D651237522C92B9B005BB33E /* LaunchScreen.storyboard */; };
-		D651238222C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651238122C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryTests.swift */; };
-		D651238D22C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651238C22C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryUITests.swift */; };
+		D651239B22C92BD8005BB33E /* Neem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651239A22C92BD8005BB33E /* Neem.swift */; };
+		D651239D22C92BE3005BB33E /* Baby.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651239C22C92BE3005BB33E /* Baby.swift */; };
+		D651239F22C92BEE005BB33E /* Logan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651239E22C92BEE005BB33E /* Logan.swift */; };
+		D65123A122C92BFB005BB33E /* MommyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65123A022C92BFB005BB33E /* MommyProtocol.swift */; };
+		D65123A322C930BB005BB33E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65123A222C930BB005BB33E /* Person.swift */; };
+		D65123A522C93109005BB33E /* BabyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65123A422C93109005BB33E /* BabyExtension.swift */; };
+		D65123A722C931E7005BB33E /* MommyProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65123A622C931E7005BB33E /* MommyProtocolExtension.swift */; };
+		D65123A922C93351005BB33E /* HypotheticalSecondChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65123A822C93351005BB33E /* HypotheticalSecondChild.swift */; };
+		D65123AB22C93813005BB33E /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65123AA22C93813005BB33E /* ArrayExtension.swift */; };
+		D6D058BA22E7AAAD001D4096 /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D058B922E7AAAD001D4096 /* NotificationExtension.swift */; };
+		D6D058BE22ECC11A001D4096 /* AdultingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D058BD22ECC11A001D4096 /* AdultingProtocol.swift */; };
+		D6D058C022ECC124001D4096 /* SelfCareProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D058BF22ECC124001D4096 /* SelfCareProtocol.swift */; };
+		D6D058C222ECC137001D4096 /* DeveloperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D058C122ECC136001D4096 /* DeveloperProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D614698222E4F28E0068E264 /* OptionalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalExtension.swift; sourceTree = "<group>"; };
+		D614698422E532600068E264 /* Diaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diaper.swift; sourceTree = "<group>"; };
+		D614698622E55EC50068E264 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 		D651236722C92B98005BB33E /* You Belong With Me: An Extensions Love Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "You Belong With Me: An Extensions Love Story.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D651236A22C92B98005BB33E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D651236C22C92B98005BB33E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,11 +61,20 @@
 		D651237622C92B9B005BB33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D651237822C92B9B005BB33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D651237D22C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "You Belong With Me: An Extensions Love StoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D651238122C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = You_Belong_With_Me__An_Extensions_Love_StoryTests.swift; sourceTree = "<group>"; };
-		D651238322C92B9B005BB33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D651238822C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "You Belong With Me: An Extensions Love StoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D651238C22C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = You_Belong_With_Me__An_Extensions_Love_StoryUITests.swift; sourceTree = "<group>"; };
-		D651238E22C92B9B005BB33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D651239A22C92BD8005BB33E /* Neem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neem.swift; sourceTree = "<group>"; };
+		D651239C22C92BE3005BB33E /* Baby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby.swift; sourceTree = "<group>"; };
+		D651239E22C92BEE005BB33E /* Logan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logan.swift; sourceTree = "<group>"; };
+		D65123A022C92BFB005BB33E /* MommyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MommyProtocol.swift; sourceTree = "<group>"; };
+		D65123A222C930BB005BB33E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D65123A422C93109005BB33E /* BabyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyExtension.swift; sourceTree = "<group>"; };
+		D65123A622C931E7005BB33E /* MommyProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MommyProtocolExtension.swift; sourceTree = "<group>"; };
+		D65123A822C93351005BB33E /* HypotheticalSecondChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypotheticalSecondChild.swift; sourceTree = "<group>"; };
+		D65123AA22C93813005BB33E /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		D6D058B922E7AAAD001D4096 /* NotificationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationExtension.swift; sourceTree = "<group>"; };
+		D6D058BD22ECC11A001D4096 /* AdultingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdultingProtocol.swift; sourceTree = "<group>"; };
+		D6D058BF22ECC124001D4096 /* SelfCareProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareProtocol.swift; sourceTree = "<group>"; };
+		D6D058C122ECC136001D4096 /* DeveloperProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +102,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D630F4C222E60158004BEDEF /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				D651236A22C92B98005BB33E /* AppDelegate.swift */,
+				D651236C22C92B98005BB33E /* SceneDelegate.swift */,
+				D651236E22C92B98005BB33E /* ViewController.swift */,
+				D651237022C92B98005BB33E /* Main.storyboard */,
+				D651237322C92B9B005BB33E /* Assets.xcassets */,
+				D651237522C92B9B005BB33E /* LaunchScreen.storyboard */,
+				D651237822C92B9B005BB33E /* Info.plist */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
 		D651235E22C92B98005BB33E = {
 			isa = PBXGroup;
 			children = (
 				D651236922C92B98005BB33E /* You Belong With Me: An Extensions Love Story */,
-				D651238022C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryTests */,
-				D651238B22C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryUITests */,
 				D651236822C92B98005BB33E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,33 +137,41 @@
 		D651236922C92B98005BB33E /* You Belong With Me: An Extensions Love Story */ = {
 			isa = PBXGroup;
 			children = (
-				D651236A22C92B98005BB33E /* AppDelegate.swift */,
-				D651236C22C92B98005BB33E /* SceneDelegate.swift */,
-				D651236E22C92B98005BB33E /* ViewController.swift */,
-				D651237022C92B98005BB33E /* Main.storyboard */,
-				D651237322C92B9B005BB33E /* Assets.xcassets */,
-				D651237522C92B9B005BB33E /* LaunchScreen.storyboard */,
-				D651237822C92B9B005BB33E /* Info.plist */,
+				D65123A222C930BB005BB33E /* Person.swift */,
+				D651239A22C92BD8005BB33E /* Neem.swift */,
+				D651239C22C92BE3005BB33E /* Baby.swift */,
+				D65123A422C93109005BB33E /* BabyExtension.swift */,
+				D651239E22C92BEE005BB33E /* Logan.swift */,
+				D65123A822C93351005BB33E /* HypotheticalSecondChild.swift */,
+				D614698422E532600068E264 /* Diaper.swift */,
+				D6D058C322ECCC8E001D4096 /* Protocols */,
+				D6D058C422ECCCA5001D4096 /* Extensions */,
+				D630F4C222E60158004BEDEF /* Default */,
 			);
 			path = "You Belong With Me: An Extensions Love Story";
 			sourceTree = "<group>";
 		};
-		D651238022C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryTests */ = {
+		D6D058C322ECCC8E001D4096 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				D651238122C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryTests.swift */,
-				D651238322C92B9B005BB33E /* Info.plist */,
+				D6D058BD22ECC11A001D4096 /* AdultingProtocol.swift */,
+				D6D058BF22ECC124001D4096 /* SelfCareProtocol.swift */,
+				D6D058C122ECC136001D4096 /* DeveloperProtocol.swift */,
+				D65123A022C92BFB005BB33E /* MommyProtocol.swift */,
+				D65123A622C931E7005BB33E /* MommyProtocolExtension.swift */,
 			);
-			path = "You Belong With Me: An Extensions Love StoryTests";
+			path = Protocols;
 			sourceTree = "<group>";
 		};
-		D651238B22C92B9B005BB33E /* You Belong With Me: An Extensions Love StoryUITests */ = {
+		D6D058C422ECCCA5001D4096 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				D651238C22C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryUITests.swift */,
-				D651238E22C92B9B005BB33E /* Info.plist */,
+				D6D058B922E7AAAD001D4096 /* NotificationExtension.swift */,
+				D65123AA22C93813005BB33E /* ArrayExtension.swift */,
+				D614698222E4F28E0068E264 /* OptionalExtension.swift */,
+				D614698622E55EC50068E264 /* DoubleExtension.swift */,
 			);
-			path = "You Belong With Me: An Extensions Love StoryUITests";
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +305,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D058C022ECC124001D4096 /* SelfCareProtocol.swift in Sources */,
+				D614698722E55EC50068E264 /* DoubleExtension.swift in Sources */,
+				D65123A122C92BFB005BB33E /* MommyProtocol.swift in Sources */,
 				D651236F22C92B98005BB33E /* ViewController.swift in Sources */,
+				D651239F22C92BEE005BB33E /* Logan.swift in Sources */,
+				D6D058C222ECC137001D4096 /* DeveloperProtocol.swift in Sources */,
 				D651236B22C92B98005BB33E /* AppDelegate.swift in Sources */,
+				D6D058BA22E7AAAD001D4096 /* NotificationExtension.swift in Sources */,
+				D614698522E532600068E264 /* Diaper.swift in Sources */,
+				D6D058BE22ECC11A001D4096 /* AdultingProtocol.swift in Sources */,
+				D65123A522C93109005BB33E /* BabyExtension.swift in Sources */,
+				D614698322E4F28E0068E264 /* OptionalExtension.swift in Sources */,
+				D651239B22C92BD8005BB33E /* Neem.swift in Sources */,
+				D651239D22C92BE3005BB33E /* Baby.swift in Sources */,
+				D65123AB22C93813005BB33E /* ArrayExtension.swift in Sources */,
+				D65123A322C930BB005BB33E /* Person.swift in Sources */,
+				D65123A922C93351005BB33E /* HypotheticalSecondChild.swift in Sources */,
 				D651236D22C92B98005BB33E /* SceneDelegate.swift in Sources */,
+				D65123A722C931E7005BB33E /* MommyProtocolExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +331,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D651238222C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +338,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D651238D22C92B9B005BB33E /* You_Belong_With_Me__An_Extensions_Love_StoryUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
