@@ -5,8 +5,11 @@ class Baby: Person {
     
     func cry() {}
     
+    func pee(diaper: Diaper) {}
+    
     func poop(diaper: Diaper) {
         diaper.contents.appendDistinct("poop")
-        NotificationCenter.default.post(name: .poop, object: nil)
     }
+    
+    func lookCute() {}
 }

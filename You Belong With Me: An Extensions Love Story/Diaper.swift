@@ -19,7 +19,9 @@ extension Diaper {
         
         self.init(contents: diaperContents)
     }
+}
 
+extension Diaper {
     enum Kind {
         case clean, poop, pee
     }
@@ -35,3 +37,4 @@ extension Diaper {
         }
     }
 }
+

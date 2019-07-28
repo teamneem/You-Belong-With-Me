@@ -29,6 +29,7 @@
 		D6D058BE22ECC11A001D4096 /* AdultingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D058BD22ECC11A001D4096 /* AdultingProtocol.swift */; };
 		D6D058C022ECC124001D4096 /* SelfCareProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D058BF22ECC124001D4096 /* SelfCareProtocol.swift */; };
 		D6D058C222ECC137001D4096 /* DeveloperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D058C122ECC136001D4096 /* DeveloperProtocol.swift */; };
+		D6D058C622ED3DB0001D4096 /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D058C522ED3DB0001D4096 /* Weight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		D6D058BD22ECC11A001D4096 /* AdultingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdultingProtocol.swift; sourceTree = "<group>"; };
 		D6D058BF22ECC124001D4096 /* SelfCareProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareProtocol.swift; sourceTree = "<group>"; };
 		D6D058C122ECC136001D4096 /* DeveloperProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperProtocol.swift; sourceTree = "<group>"; };
+		D6D058C522ED3DB0001D4096 /* Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				D651239E22C92BEE005BB33E /* Logan.swift */,
 				D65123A822C93351005BB33E /* HypotheticalSecondChild.swift */,
 				D614698422E532600068E264 /* Diaper.swift */,
+				D6D058C522ED3DB0001D4096 /* Weight.swift */,
 				D6D058C322ECCC8E001D4096 /* Protocols */,
 				D6D058C422ECCCA5001D4096 /* Extensions */,
 				D630F4C222E60158004BEDEF /* Default */,
@@ -320,6 +323,7 @@
 				D651239B22C92BD8005BB33E /* Neem.swift in Sources */,
 				D651239D22C92BE3005BB33E /* Baby.swift in Sources */,
 				D65123AB22C93813005BB33E /* ArrayExtension.swift in Sources */,
+				D6D058C622ED3DB0001D4096 /* Weight.swift in Sources */,
 				D65123A322C930BB005BB33E /* Person.swift in Sources */,
 				D65123A922C93351005BB33E /* HypotheticalSecondChild.swift in Sources */,
 				D651236D22C92B98005BB33E /* SceneDelegate.swift in Sources */,

@@ -1,7 +1,7 @@
 extension MommyProtocol {
-    func askForHelp() {}
-    
-    func multitask() {}
+    func multitask() {
+        //do all the things
+    }
     
     func feedBaby() -> String {
         return "Breastfeeding"
